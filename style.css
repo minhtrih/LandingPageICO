@@ -2431,4 +2431,10 @@ ul[class*="list-"] li + li { margin-top: 13px; }
 .footer-menu nav ul li a { color: #717171; font-size: 12px; line-height: 30px; font-style: italic; font-family: "Open Sans", sans-serif; color: #717171; }
 .footer-menu nav ul li a:hover { color: #0056ff; }
 
+/*-- Modal --*/
+.modal-dialog-centered {
+	top: 5%;
+	display: flex;
+	align-items: center;
+}
 
