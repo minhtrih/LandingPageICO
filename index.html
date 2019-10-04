@@ -43,11 +43,43 @@
             </a>
           </div>
 
-          <!-- Header Buttons -->
+          <!-- Language Buttons -->
           <div class="header-button col-lg-3 col-md-6 col-6">
-            <!-- Header Buttons Wrapper -->
+            <!-- Language Buttons Wrapper -->
             <div class="header-button-wrapper">
-              <a href="#" class="btn btn-light-border btn-hover-red d-none d-md-inline-flex">Log In</a>
+              <div id="select-box" class="btn btn-light-border btn-hover-red d-none d-md-inline-flex">
+                <input type="checkbox" id="options-view-button">
+                <div id="select-button" class="brd">
+                  <div id="selected-value">
+                    <span></span>
+                  </div>
+                  <div id="chevrons">
+                    <i class="fa fa-chevron-up"></i>
+                    <i class="fa fa-chevron-down"></i>
+                  </div>
+                </div>
+                <div id="options">
+                  <div class="option">
+                    <input class="s-c top" type="radio" name="platform" value="english" checked>
+                    <input class="s-c bottom" type="radio" name="platform" value="english" checked>
+                    <a class="label" href="#">EN</a>
+                    <span class="opt-val">EN</span>
+                  </div>
+                  <div class="option">
+                    <input class="s-c top" type="radio" name="platform" value="vietnamese">
+                    <input class="s-c bottom" type="radio" name="platform" value="vietnamese">
+                    <a class="label" href="./index-vn.html">VN</a>
+                    <span class="opt-val">VN</span>
+                  </div>
+                  <div class="option">
+                    <input class="s-c top" type="radio" name="platform" value="chinese">
+                    <input class="s-c bottom" type="radio" name="platform" value="chinese">
+                    <a class="label" href="#">CN</a>
+                    <span class="opt-val">CN</span>
+                  </div>
+                  <div id="option-bg"></div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -74,25 +106,7 @@
     <div class="hero-slider-2 hero-slider-three section">
 
       <!-- Hero Slide Item -->
-      <div class="item overlay-dark overlay-opacity-70" style="background-image: url(img/hero/8.jpg)">
-        <!-- Hero One Content Start -->
-        <div class="hero-content-four align-items-end text-center container">
-          <h1>Novalex Coin<br>The future of exchange is smart.</h1>
-          <h4>Blockchain as a Service for the exchange sector!</h4>
-        </div><!-- Hero One Content End -->
-      </div>
-
-      <!-- Hero Slide Item -->
-      <div class="item overlay-dark overlay-opacity-70" style="background-image: url(img/hero/9.jpg)">
-        <!-- Hero One Content Start -->
-        <div class="hero-content-four align-items-end text-center container">
-          <h1>Novalex Coin<br>The future of exchange is smart.</h1>
-          <h4>Blockchain as a Service for the exchange sector!</h4>
-        </div><!-- Hero One Content End -->
-      </div>
-
-      <!-- Hero Slide Item -->
-      <div class="item overlay-dark overlay-opacity-70" style="background-image: url(img/hero/10.jpg)">
+      <div class="hero-area-fix item overlay-dark overlay-opacity-10">
         <!-- Hero One Content Start -->
         <div class="hero-content-four align-items-end text-center container">
           <h1>Novalex Coin<br>The future of exchange is smart.</h1>
@@ -1390,7 +1404,12 @@
 ============================================ -->
 
   <!-- jQuery JS -->
-  <script src="js/vendor/jquery-1.12.0.min.js"></script>
+  <script src="js/vendor/jquery-2.2.4.min.js"></script>
+  <!-- <script src="js/vendor/jquery-1.12.0.min.js"></script> -->
+  <!-- Ripples JS -->
+  <script src="js/vendor/jquery.ripples-min.js"></script>
+  <!-- Typed JS -->
+  <script src="js/vendor/typed.min.js"></script>
   <!-- Popper JS -->
   <script src="js/popper.min.js"></script>
   <!-- Bootstrap JS -->
@@ -1403,6 +1422,8 @@
   <script src="js/ajax-mail.js"></script>
   <!-- Main JS -->
   <script src="js/main.js"></script>
+  <!-- WaterBackground JS -->
+  <script src="js/waterbackground.js"></script>
 
 </body>
 
