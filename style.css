@@ -1466,7 +1466,7 @@ ul[class*="list-"] li + li { margin-top: 13px; }
 .event-one-schedule-list .event-one-single-schedule > div.category-title { width: 470px; padding: 3px 0; }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { .event-one-schedule-list .event-one-single-schedule > div.category-title { width: 380px; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) { .event-one-schedule-list .event-one-single-schedule > div.category-title { width: 420px; } }
-.event-one-schedule-list .event-one-single-schedule > div.organizer { width: 230px; padding: 3px 0; }
+.event-one-schedule-list .event-one-single-schedule > div.organizer { width: 165px; padding: 3px 0; }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { .event-one-schedule-list .event-one-single-schedule > div.organizer { width: 170px; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) { .event-one-schedule-list .event-one-single-schedule > div.organizer { width: 180px; border: none; } }
 .event-one-schedule-list .event-one-single-schedule > div.buy-button { width: 270px; text-align: center; }
@@ -1547,6 +1547,7 @@ ul[class*="list-"] li + li { margin-top: 13px; }
 .event-four-single-schedule::after { position: absolute; left: 8px; top: 40px; width: 2px; bottom: -22px; background-color: #ff0042; content: ""; }
 .event-four-single-schedule:last-child { padding-bottom: 0; }
 .event-four-single-schedule:last-child::after { display: none; }
+@media only screen and (min-width: 1201px) { .event-four-single-schedule .date-title-cat { width: 450px; } }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { .event-four-single-schedule .date-title-cat { width: 300px; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) { .event-four-single-schedule .date-title-cat { width: 100%; margin-bottom: 30px; } }
 @media only screen and (max-width: 767px) { .event-four-single-schedule .date-title-cat { width: 100%; margin-bottom: 30px; } }
