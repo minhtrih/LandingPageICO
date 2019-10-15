@@ -845,8 +845,9 @@ ul[class*="list-"] li + li { margin-top: 13px; }
 #menu { margin: auto; }
 #menu > ul > li { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; margin-right: 42px; position: relative; padding: 0; margin-left: 0; margin-top: 0; margin-bottom: 0; }
 #menu > ul > li:last-child { margin-right: 0; }
-#menu > ul > li > a { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; font-size: 16px; color: #282828; text-transform: capitalize; font-family: "Montserrat", sans-serif; line-height: 128px; }
-#menu > ul > li.active > a, #menu > ul > li:hover > a { color: #0056ff; }
+#menu > ul > li > a { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; font-size: 16px; font-weight: 500; color: #282828; text-transform: capitalize; font-family: "Montserrat", sans-serif; line-height: 128px; }
+#menu > ul > li.active > a { color: #ff0042; }
+#menu > ul > li:hover > a { color: #0056ff; }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) { #menu > ul > li { margin-right: 30px; } }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { #menu > ul > li { margin-right: 20px; }
   #menu > ul > li > a { font-size: 14px; } }
@@ -2552,8 +2553,15 @@ ul[class*="list-"] li + li { margin-top: 13px; }
 .footer-menu nav ul li a { color: #717171; font-size: 12px; line-height: 30px; font-style: italic; font-family: "Open Sans", sans-serif; color: #717171; }
 .footer-menu nav ul li a:hover { color: #0056ff; }
 
+/*----------------------------------------*/
+/*  32.  Teams
+/*----------------------------------------*/
+/*-- Team Section One --*/
+.team-section-one { padding-top: 120px; }
+
+
 /*-- Modal --*/
-.modal-speaker {
+.modal-team {
 	cursor: pointer;
 }
 
