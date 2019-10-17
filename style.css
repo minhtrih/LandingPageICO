@@ -609,7 +609,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity: 1; -ms-fi
 
 /*-- Accordion Header Two --*/
 .accordion-header-two h5 { margin-bottom: 0; }
-.accordion-header-two h5 a { background-color: #0056ff; color: #ffffff; display: block; font-weight: 700; line-height: 24px; padding: 13px 30px 13px 30px; position: relative; text-align: left; text-transform: uppercase; width: 100%; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+.accordion-header-two h5 a { background-color: #ff0042; color: #ffffff; display: block; font-weight: 700; line-height: 24px; padding: 13px 30px 13px 30px; position: relative; text-align: left; text-transform: uppercase; width: 100%; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
 .accordion-header-two h5 a::before { content: "\f106"; font-family: 'Fontawesome'; font-size: 22px; height: 50px; color: #ffffff; right: 0; line-height: 44px; position: absolute; text-align: center; top: 0; width: 50px; }
 .accordion-header-two h5 a:focus, .accordion-header-two h5 a:hover { color: #ffffff; }
 .accordion-header-two h5 a.collapsed { background-color: #f1f2f3; color: #282828; }
@@ -700,55 +700,55 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity: 1; -ms-fi
 /*-- List Style --*/
 ul[class*="list-"] { list-style: none; }
 ul[class*="list-"] li { display: block; line-height: 24px; font-size: 16px; color: #282828; position: relative; }
-ul[class*="list-"] li + li { margin-top: 13px; }
+ul[class*="list-"] li + li { margin-top: 7px; }
 
 /*-- List Circle --*/
 .list-circle li { padding-left: 25px; }
-.list-circle li::before { content: ""; width: 10px; height: 10px; float: left; position: absolute; left: 1px; border-radius: 50%; background-color: #0056ff; margin-top: 8px; }
+.list-circle > li::before { content: ""; width: 10px; height: 10px; float: left; position: absolute; left: 1px; border-radius: 50%; background-color: #0056ff; margin-top: 8px; }
 
 /*-- List Square --*/
 .list-square li { padding-left: 25px; }
-.list-square li::before { content: ""; width: 10px; height: 10px; float: left; position: absolute; left: 1px; background-color: #0056ff; margin-top: 8px; }
+.list-square > li::before { content: ""; width: 10px; height: 10px; float: left; position: absolute; left: 1px; background-color: #0056ff; margin-top: 8px; }
 
 /*-- List Circle --*/
 .list-line li { padding-left: 25px; }
-.list-line li::before { content: ""; width: 10px; height: 2px; float: left; position: absolute; left: 1px; background-color: #0056ff; margin-top: 12px; }
+.list-line > li::before { content: ""; width: 10px; height: 2px; float: left; position: absolute; left: 1px; background-color: #0056ff; margin-top: 12px; }
 
 /*-- List Check --*/
 .list-check li { padding-left: 25px; }
-.list-check li::before { content: "\f00c"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
+.list-check > li::before { content: "\f00c"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Check Square --*/
 .list-check-square li { padding-left: 25px; }
-.list-check-square li::before { content: "\f14a"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
+.list-check-square > li::before { content: "\f14a"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Arrow --*/
 .list-arrow li { padding-left: 25px; }
-.list-arrow li::before { content: "\f105"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
+.list-arrow > li::before { content: "\f105"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Arrow Double --*/
 .list-arrow-double li { padding-left: 25px; }
-.list-arrow-double li::before { content: "\f101"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
+.list-arrow-double > li::before { content: "\f101"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Long Arrow --*/
 .list-long-arrow li { padding-left: 25px; }
-.list-long-arrow li::before { content: "\f178"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
+.list-long-arrow > li::before { content: "\f178"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Arrow Circle --*/
 .list-arrow-circle li { padding-left: 25px; }
-.list-arrow-circle li::before { content: "\f0a9"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
+.list-arrow-circle > li::before { content: "\f0a9"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Like --*/
 .list-like li { padding-left: 25px; }
-.list-like li::before { content: "\f087"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
+.list-like > li::before { content: "\f087"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Folder --*/
 .list-folder li { padding-left: 25px; }
-.list-folder li::before { content: "\f115"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
+.list-folder > li::before { content: "\f115"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Time --*/
 .list-time li { padding-left: 25px; }
-.list-time li::before { content: "\f017"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
+.list-time > li::before { content: "\f017"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- Pagination --*/
 .pagination { /*-- Pagiantion With Border --*/ /*-- Pagiantion Circle --*/ /*-- Pagiantion Square --*/ /*-- Pagiantion Radius --*/ }
