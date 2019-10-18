@@ -703,51 +703,51 @@ ul[class*="list-"] li { display: block; line-height: 24px; font-size: 16px; colo
 ul[class*="list-"] li + li { margin-top: 7px; }
 
 /*-- List Circle --*/
-.list-circle li { padding-left: 25px; }
+.list-circle li { padding-left: 25px; text-align: justify; }
 .list-circle > li::before { content: ""; width: 10px; height: 10px; float: left; position: absolute; left: 1px; border-radius: 50%; background-color: #0056ff; margin-top: 8px; }
 
 /*-- List Square --*/
-.list-square li { padding-left: 25px; }
+.list-square li { padding-left: 25px; text-align: justify; }
 .list-square > li::before { content: ""; width: 10px; height: 10px; float: left; position: absolute; left: 1px; background-color: #0056ff; margin-top: 8px; }
 
 /*-- List Circle --*/
-.list-line li { padding-left: 25px; }
+.list-line li { padding-left: 25px; text-align: justify; }
 .list-line > li::before { content: ""; width: 10px; height: 2px; float: left; position: absolute; left: 1px; background-color: #0056ff; margin-top: 12px; }
 
 /*-- List Check --*/
-.list-check li { padding-left: 25px; }
+.list-check li { padding-left: 25px; text-align: justify; }
 .list-check > li::before { content: "\f00c"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Check Square --*/
-.list-check-square li { padding-left: 25px; }
+.list-check-square li { padding-left: 25px; text-align: justify; }
 .list-check-square > li::before { content: "\f14a"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Arrow --*/
-.list-arrow li { padding-left: 25px; }
+.list-arrow li { padding-left: 25px; text-align: justify; }
 .list-arrow > li::before { content: "\f105"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Arrow Double --*/
-.list-arrow-double li { padding-left: 25px; }
+.list-arrow-double li { padding-left: 25px; text-align: justify; }
 .list-arrow-double > li::before { content: "\f101"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Long Arrow --*/
-.list-long-arrow li { padding-left: 25px; }
+.list-long-arrow li { padding-left: 25px; text-align: justify; }
 .list-long-arrow > li::before { content: "\f178"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Arrow Circle --*/
-.list-arrow-circle li { padding-left: 25px; }
+.list-arrow-circle li { padding-left: 25px; text-align: justify; }
 .list-arrow-circle > li::before { content: "\f0a9"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Like --*/
-.list-like li { padding-left: 25px; }
+.list-like li { padding-left: 25px; text-align: justify; }
 .list-like > li::before { content: "\f087"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Folder --*/
-.list-folder li { padding-left: 25px; }
+.list-folder li { padding-left: 25px; text-align: justify; }
 .list-folder > li::before { content: "\f115"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- List Time --*/
-.list-time li { padding-left: 25px; }
+.list-time li { padding-left: 25px; text-align: justify; }
 .list-time > li::before { content: "\f017"; font-family: 'Fontawesome'; float: left; position: absolute; left: 1px; color: #0056ff; line-height: 26px; font-size: 14px; }
 
 /*-- Pagination --*/
@@ -1290,14 +1290,17 @@ ul[class*="list-"] li + li { margin-top: 7px; }
 .about-image-one img { max-width: 100%; }
 
 /*-- About Content One --*/
-.about-content-one { margin-top: 50px; }
+/* .about-content-one { margin-top: 50px; } */
+.about-content-one { margin-top: 0px; }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { .about-content-one { margin-top: 0; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) { .about-content-one { margin-bottom: 120px; } }
 @media only screen and (max-width: 767px) { .about-content-one { margin-bottom: 120px; } }
 .about-content-one h1 { color: #ff0042; margin-bottom: 11px; }
 .about-content-one h4 { color: #555555; }
+.about-content-one h4 { color: #0056ff; }
 .about-content-one h4 span { color: #0056ff; }
-.about-content-one .strong { font-weight: 700; margin-top: 28px; }
+/* .about-content-one .strong { font-weight: 700; margin-top: 28px; } */
+.about-content-one .strong { font-weight: 700; margin-top: 0px; }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { .about-content-one .strong { margin-top: 15px; } }
 .about-content-one h5 { margin-bottom: 18px; padding-bottom: 21px; position: relative; }
 .about-content-one h5::before { position: absolute; left: 0; bottom: 0; height: 1px; width: 50px; background-color: #0056ff; content: ""; }
@@ -1939,10 +1942,10 @@ ul[class*="list-"] li + li { margin-top: 7px; }
 .cta-content.black { color: #282828; }
 
 /*-- CTA Content Two --*/
-.cta-content-2 h1 { color: inherit; margin-bottom: 32px; text-transform: uppercase; font-weight: 500; }
+.cta-content-2 h1 { color: #ff0042; margin-bottom: 32px; text-transform: uppercase; font-weight: 500; }
 @media only screen and (max-width: 767px) { .cta-content-2 h1 { font-size: 30px; line-height: 36px; margin-bottom: 20px; } }
 @media only screen and (max-width: 479px) { .cta-content-2 h1 { font-size: 18px; line-height: 24px; margin-bottom: 15px; } }
-.cta-content-2 h4 { font-family: "Open Sans", sans-serif; color: inherit; max-width: 970px; margin: 0 auto 35px; line-height: 30px; }
+.cta-content-2 h4 { font-family: "Open Sans", sans-serif; color: #0056ff; max-width: 970px; margin: 0 auto 35px; line-height: 30px; }
 @media only screen and (max-width: 767px) { .cta-content-2 h4 { font-size: 16px; line-height: 30px; } }
 @media only screen and (max-width: 479px) { .cta-content-2 h4 { font-size: 14px; line-height: 24px; margin-bottom: 25px; } }
 .cta-content-2.white { color: #ffffff; }
