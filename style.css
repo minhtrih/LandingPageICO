@@ -1294,7 +1294,7 @@ ul[class*="list-"] li + li { margin-top: 7px; }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { .about-content-one { margin-top: 0; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) { .about-content-one { margin-bottom: 120px; } }
 @media only screen and (max-width: 767px) { .about-content-one { margin-bottom: 120px; } }
-.about-content-one h1 { color: #0056ff; margin-bottom: 11px; }
+.about-content-one h1 { color: #ff0042; margin-bottom: 11px; }
 .about-content-one h4 { color: #555555; }
 .about-content-one h4 span { color: #0056ff; }
 .about-content-one .strong { font-weight: 700; margin-top: 28px; }
