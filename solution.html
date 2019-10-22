@@ -59,8 +59,8 @@
     <!-- Header Section End -->
 
     <!-- Page Banner Section Start -->
-    <div class="page-banner-section section overlay-gradient overlay-opacity-90"
-      style="background-image: url(img/bg/blockchain-banner.jpg)">
+    <div class="page-banner-section section overlay-gradient overlay-opacity-70"
+      style="background-image: url(img/bg/solution.jpg)">
       <div class="container">
         <div class="row">
 
@@ -103,7 +103,7 @@
         </div>
         <div class="row pt-70">
           <div class="about-image-one col-lg-6 col-12">
-            <img src="img/about/hero-banner.png" alt="about">
+            <img src="img/about/hero-banner-1.png" alt="about">
           </div>
           <div class="about-content-one col-lg-6 col-12 pt-50">
             <h1 class="strong" style="margin-bottom: 0;">Nova Dex</h1>
@@ -144,10 +144,75 @@
           </div>
           <!-- Work Process One -->
           <div class="work-process-one col-lg-4 col-md-6 col-12 mb-30">
-            <div class="icon"><i class="pe-7s-science"></i></div>
+            <div class="icon"><img src="img/icons/icons8-physics-64.png" width="40px" /></div>
             <div class="content">
               <h4>Relayer scaffolding as thin client.</h4>
             </div>
+          </div>
+        </div>
+        <div class="row pt-50">
+          <div class="about-content-one col-lg-6 col-12">
+            <h1 class="strong wow fadeInRight">Integrated DEX as blockchain-core layer</h1>
+            <h5 class="wow fadeInUp"></h5>
+            <ul class="list-circle wow fadeInRight" data-wow-delay=".2s">
+              <li>We build NOVA DEX as a standard Ethereum protocol. Ethereum is composed of many protocol packages. The
+                most important one is “eth” protocol which includes 2 main packages (modules):
+                <ul class="list-long-arrow">
+                  <li>“Downloader“ mainly used to synchronize the network, including traditional and fast way.</li>
+                  <li>“Fetcher” which is used for block-based notification synchronization.</li>
+                </ul>
+              </li>
+              <li>We build our own protocol to integrate the DEX into the core layer although all data are actually
+                stored as level db file, and synchronized based on “p2p” protocol across the multiple nodes. Nova DEX
+                also uses “p2p” protocol to synchronize all messages.</li>
+            </ul>
+          </div>
+          <div class="about-image-one col-lg-6 col-12" style="background: #3d3c3e;">
+            <img src="img/about/hero-banner-2.png" alt="about">
+          </div>
+        </div>
+        <div class="row pt-50">
+          <div class="about-image-one col-lg-6 col-12" style="background: #3d3c3e;">
+            <img src="img/about/hero-banner-2.png" alt="about">
+          </div>
+          <div class="about-content-one col-lg-6 col-12">
+            <h1 class="strong wow fadeInRight">The matching engine and orderbook need to be decentralized</h1>
+            <h5 class="wow fadeInUp"></h5>
+            <ul class="list-circle wow fadeInRight" data-wow-delay=".2s">
+              <li>To decentralize the orderbook and matching engine, we need solve 2 problems:
+                <ul class="list-long-arrow">
+                  <li>Orderbook as decentralized storage.</li>
+                  <li>Matching engine as decentralized logic.</li>
+                </ul>
+              </li>
+              <li>Firstly, we need to utilize the “eth” protocol to decentralize the orderbook. Since the order book is
+                actually a red-black tree, we do this by building the order book as a single key-value pair “eth’
+                database, then synchronize it over the “p2p’ protocol. Using a cryptographic hash function, we can
+                achieve a single key-value by calculating keccak256(pairName), such as keccak256(NOVA-ETH) as the
+                starting slot position. And all the following orders will be stored in ascending order using slot +
+                incremental number. Since each order book is a red-black tree, by using the cryptographic hash
+                technique, we can store all order books into a single key-value “eth” database to achieve
+                decentralization.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row pt-50">
+          <div class="about-content-one col-lg-6 col-12">
+            <h1 class="strong wow fadeInRight">Relayer scaffolding as thin client</h1>
+            <h5 class="wow fadeInUp"></h5>
+            <ul class="list-circle wow fadeInRight" data-wow-delay=".2s">
+              <li>Relayer is actually a thin client (of any connected entity) who facilitates their users to
+                participate(buy/sell,make/take) in the decentralized exchange. This concept is similar to a DApp on the
+                Ethereum blockchain where all data will be retrieved from the blockchain. Each entity will have
+                advantages of its local relationship, UX experimentation, and the simplicity of a one command set up.
+                Eventually, they can modify the details and interface to meet the demands of their individual markets.
+                To provide assistance to our relayers, we build a relayer starter kit which includes frontend+backend
+                functionality (including utilities) built into a single docker image. This greatly simplifies the
+                criteria and technicality required of our relayers making it more accessible to the public.</li>
+            </ul>
+          </div>
+          <div class="about-image-one col-lg-6 col-12">
+            <img src="img/about/ad-dis-blockchain.png" alt="about">
           </div>
         </div>
       </div>
