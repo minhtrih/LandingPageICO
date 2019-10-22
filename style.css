@@ -1297,13 +1297,14 @@ ul[class*="list-"] li + li { margin-top: 7px; }
 @media only screen and (max-width: 767px) { .about-content-one { margin-bottom: 120px; } }
 .about-content-one h1 { color: #ff0042; margin-bottom: 11px; }
 .about-content-one h4 { color: #555555; }
-.about-content-one h4 { color: #0056ff; }
+/* .about-content-one h4 { coverlayolor: #0056ff; } */
 .about-content-one h4 span { color: #0056ff; }
 /* .about-content-one .strong { font-weight: 700; margin-top: 28px; } */
 .about-content-one .strong { font-weight: 700; margin-top: 0px; }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { .about-content-one .strong { margin-top: 15px; } }
 .about-content-one h5 { margin-bottom: 18px; padding-bottom: 21px; position: relative; }
 .about-content-one h5::before { position: absolute; left: 0; bottom: 0; height: 1px; width: 50px; background-color: #0056ff; content: ""; }
+.about-content-one.white h4, .about-content-one.white p { color: #ffffff; }
 
 /*-- About Countdown --*/
 .about-countdown { float: left; width: 100%; margin-top: 34px; }
