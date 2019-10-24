@@ -784,6 +784,10 @@ ul[class*="list-"] li + li { margin-top: 7px; }
 .nav-tab-two a { display: block; float: left; line-height: 24px; padding: 8px 20px 8px 20px; font-weight: 600; color: #282828; border-top: 2px solid transparent; margin-top: -1px; border-right: 1px solid #eeeeee; }
 .nav-tab-two a.active { border-top-color: #0056ff; }
 
+/*-- Nav Tab Three --*/
+.nav-tab-three a { display: block; float: left; line-height: 24px; padding: 8px 20px 8px 20px; font-size: 20px; font-weight: 600; color: #282828; margin-top: -1px; border: 1px solid #eeeeee}
+.nav-tab-three a.active { background-color: #ff0042; color: #fff;}
+
 /*-- Tab Content --*/
 .tab-content .tab-pane-border { border: 1px solid #eeeeee; padding: 20px; }
 
