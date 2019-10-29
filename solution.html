@@ -221,17 +221,21 @@
 
         <div class="row pt-50">
           <div class="about-content-one wow fadeInLeft text-right col-md-5 col-lg-5 col-12">
-            <h4 class="strong">Integrated DEX as blockchain-core layer</h4>
+            <h4 class="strong" style="font-size: 24px;">Integrated DEX as blockchain-core layer</h4>
             <h5></h5>
             <ul class="list-circle" data-wow-delay=".2s">
-              <li>We build NOVA DEX as a standard Ethereum protocol. Ethereum is composed of many protocol packages. The
+              <li style="line-height: 30px;">We build NOVA DEX as a standard Ethereum protocol. Ethereum is composed of
+                many protocol packages. The
                 most important one is “eth” protocol which includes 2 main packages (modules):
                 <ul class="list-long-arrow">
-                  <li>“Downloader“ mainly used to synchronize the network, including traditional and fast way.</li>
-                  <li>“Fetcher” which is used for block-based notification synchronization.</li>
+                  <li style="line-height: 30px;">“Downloader“ mainly used to synchronize the network, including
+                    traditional and fast way.</li>
+                  <li style="line-height: 30px;">“Fetcher” which is used for block-based notification synchronization.
+                  </li>
                 </ul>
               </li>
-              <li>We build our own protocol to integrate the DEX into the core layer although all data are actually
+              <li style="line-height: 30px;">We build our own protocol to integrate the DEX into the core layer although
+                all data are actually
                 stored as level db file, and synchronized based on “p2p” protocol across the multiple nodes. Nova DEX
                 also uses “p2p” protocol to synchronize all messages.</li>
             </ul>
@@ -251,16 +255,18 @@
             <img src="img/icons/icones-Site2-02.png" alt="about">
           </div>
           <div class="about-content-one wow fadeInRight text-left col-md-5 col-lg-5 col-12">
-            <h4 class="strong">The matching engine and orderbook need to be decentralized</h4>
+            <h4 class="strong" style="font-size: 24px;">The matching engine and orderbook need to be decentralized</h4>
             <h5></h5>
             <ul class="list-circle" data-wow-delay=".2s">
-              <li>To decentralize the orderbook and matching engine, we need solve 2 problems:
+              <li style="line-height: 30px;">To decentralize the orderbook and matching engine, we need solve 2
+                problems:
                 <ul class="list-long-arrow">
-                  <li>Orderbook as decentralized storage.</li>
-                  <li>Matching engine as decentralized logic.</li>
+                  <li style="line-height: 30px;">Orderbook as decentralized storage.</li>
+                  <li style="line-height: 30px;">Matching engine as decentralized logic.</li>
                 </ul>
               </li>
-              <li>Firstly, we need to utilize the “eth” protocol to decentralize the orderbook. Since the order book is
+              <li style="line-height: 30px;">Firstly, we need to utilize the “eth” protocol to decentralize the
+                orderbook. Since the order book is
                 actually a red-black tree, we do this by building the order book as a single key-value pair “eth’
                 database, then synchronize it over the “p2p’ protocol. Using a cryptographic hash function, we can
                 achieve a single key-value by calculating keccak256(pairName), such as keccak256(NOVA-ETH) as the
@@ -273,10 +279,10 @@
         </div>
         <div class="row pt-50">
           <div class="about-content-one wow fadeInLeft text-right col-md-5 col-lg-5 col-12">
-            <h4 class="strong">Relayer scaffolding as thin client</h4>
+            <h4 class="strong" style="font-size: 24px;">Relayer scaffolding as thin client</h4>
             <h5></h5>
             <ul class="list-circle" data-wow-delay=".2s">
-              <li style="text-align: justify;">
+              <li style="text-align: justify; line-height: 30px;">
                 Relayer is actually a thin client (of any connected entity) who facilitates their users to participate
                 (buy/sell, make/take) in the decentralized exchange. This concept is similar to a DApp on the
                 Ethereum blockchain where all data will be retrieved from the blockchain. Each entity will have
