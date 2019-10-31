@@ -1469,11 +1469,11 @@ ul[class*="list-"] li + li { margin-top: 7px; }
 .event-one-schedule-list .event-one-single-schedule > div h4 { margin-bottom: 0; line-height: 24px; }
 .event-one-schedule-list .event-one-single-schedule > div h4 a { color: inherit; }
 .event-one-schedule-list .event-one-single-schedule > div h4 a:hover { color: #ff0042; }
-.event-one-schedule-list .event-one-single-schedule > div.day-time { width: 200px; padding: 3px 40px; }
+.event-one-schedule-list .event-one-single-schedule > div.day-time { width: 300px; padding: 3px 40px; }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { .event-one-schedule-list .event-one-single-schedule > div.day-time { width: auto; padding: 3px 30px; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) { .event-one-schedule-list .event-one-single-schedule > div.day-time { width: 180px; } }
 .event-one-schedule-list .event-one-single-schedule > div.day-time h4 { text-transform: uppercase; }
-.event-one-schedule-list .event-one-single-schedule > div.category-title { width: 470px; padding: 3px 0; }
+.event-one-schedule-list .event-one-single-schedule > div.category-title { width: 570px; padding: 3px 0; }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { .event-one-schedule-list .event-one-single-schedule > div.category-title { width: 380px; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) { .event-one-schedule-list .event-one-single-schedule > div.category-title { width: 420px; } }
 .event-one-schedule-list .event-one-single-schedule > div.organizer { width: 165px; padding: 3px 0; }
