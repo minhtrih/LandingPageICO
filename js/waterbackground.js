@@ -15,6 +15,6 @@
   $('.hero-area-fix').ripples({
     resolution: 712,
     dropRadius: 20,
-    perturbance: 0.9
+    perturbance: 0.01
   });
 })(jQuery);
