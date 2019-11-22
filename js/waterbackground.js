@@ -13,7 +13,7 @@
   });
 
   $('.hero-area-fix').ripples({
-    resolution: 712,
+    resolution: 356,
     dropRadius: 20,
     perturbance: 0.01
   });
