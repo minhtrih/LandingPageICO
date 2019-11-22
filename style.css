@@ -646,6 +646,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity: 1; -ms-fi
 .btn.btn-light-blue-border { background-color: transparent; border-color: #78a3f8; color: #78a3f8; }
 .btn.btn-light-blue-outline { background-color: #78a3f8; border-color: #78a3f8; color: #ffffff; margin: 6px; }
 .btn.btn-light-blue-outline::before { position: absolute; left: -7px; right: -7px; top: -7px; bottom: -7px; content: ""; border-radius: 50px; border: 1px solid #78a3f8; }
+.btn.btn-light-red-outline { background-color: #ff0042; border-color: #ff0042; color: #ffffff; margin: 6px; }
+.btn.btn-light-red-outline::before { position: absolute; left: -7px; right: -7px; top: -7px; bottom: -7px; content: ""; border-radius: 50px; border: 1px solid #ff0042; }
 .btn.btn-red { background-color: #ff0042; border-color: #ff0042; color: #ffffff; }
 .btn.btn-red-border { background-color: transparent; border-color: #ff0042; color: #ff0042; }
 .btn.btn-red-outline { background-color: #ff0042; border-color: #ff0042; color: #ffffff; margin: 6px; }
@@ -850,7 +852,8 @@ ul[class*="list-"] li + li { margin-top: 7px; }
 #menu > ul > li { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; margin-right: 42px; position: relative; padding: 0; margin-left: 0; margin-top: 0; margin-bottom: 0; }
 #menu > ul > li:last-child { margin-right: 0; }
 #menu > ul > li > a { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; font-size: 18px; font-weight: 500; color: #282828; text-transform: capitalize; font-family: "Montserrat", sans-serif; line-height: 128px; }
-#menu > ul > li.active > a { color: #ff0042; }
+#menu > ul > li.active > div { background: #ff0042; border-radius: 10px; padding: 10px;}
+#menu > ul > li.active > div > a { color: #ffffff; font-size: 18px; font-weight: 700; }
 #menu > ul > li:hover > a { color: #0056ff; }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) { #menu > ul > li { margin-right: 30px; } }
 @media only screen and (min-width: 992px) and (max-width: 1200px) { #menu > ul > li { margin-right: 20px; }
@@ -1070,6 +1073,20 @@ ul[class*="list-"] li + li { margin-top: 7px; }
 .hero-section .scroll-down:hover { background-color: #ffffff; color: #0056ff; }
 
 /*====Hero area==*/
+
+.typed-cursor{
+	opacity: 1;
+	font-weight: 400;
+	font-size: 24px;
+	color: #fff;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	-ms-animation: blink 0.7s infinite;
+	-o-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+	position: relative;
+	top: -2px;
+}
 
 .hero-area-fix {
 	position: relative;
@@ -1320,6 +1337,9 @@ ul[class*="list-"] li + li { margin-top: 7px; }
 .about-countdown .cdown:last-child { margin-right: 0; }
 .about-countdown .cdown .time-count { display: block; line-height: 1; font-size: 48px; color: #ff0042; font-weight: 500; font-family: "Montserrat", sans-serif; }
 .about-countdown .cdown p { display: block; margin-bottom: 0; font-size: 28px; text-transform: capitalize; color: #ffffff; font-weight: 600 }
+
+/*-- About Time ICO --*/
+.about-time-ico h4 span {color: #ffffff; font-size: 20px; font-weight: 400; }
 
 /*-- About Video Slider --*/
 .about-video-slider .item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
